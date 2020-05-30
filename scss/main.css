@@ -544,6 +544,8 @@ a.homer {
 .carousel-item {
   height: 32rem;
   background-color: #777;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
 }
 
 .carousel-item > img {
@@ -662,7 +664,7 @@ figure.snip1249:after {
 }
 
 figure.snip1249 figcaption {
-  padding: 25px 80px 25px 25px;
+  padding: 15px 40px 19px 15px;
   background-color: #ffffff;
   color: #000000;
   position: relative;
