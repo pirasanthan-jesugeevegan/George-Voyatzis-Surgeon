@@ -1,0 +1,37 @@
+*,html,body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,label,fieldset,input,p,blockquote,th,td {
+    margin: 0;
+    padding: 0;
+}
+
+article,aside,figure,footer,header,hgroup,nav,section {
+    display: block;
+  
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html {
+    -webkit-font-smoothing: antialiased;
+}
+
+a {
+    color: #BA0707;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #BA0707;
+}
+
+body {
+    background: $background;
+    color: #374147;
+    font: 14px "Open Sans",Helvetica,Arial,sans-serif;
+    -webkit-font-smoothing: antialiased;
+    line-height: 1;
+    width: 100%;
+}   
