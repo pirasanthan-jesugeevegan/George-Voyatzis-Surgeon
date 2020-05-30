@@ -1,0 +1,21 @@
+// Core variables and mixins
+@import "./base/mixins";
+@import "./base/variables";
+
+
+// Global CSS
+@import "./base/page";
+
+// Components
+@import "./components/buttons";
+@import "./components/loader";
+@import "./components/navbar";
+@import "./components/social";
+
+// Layout
+@import "./layout/about";
+@import "./layout/home";
+@import "./layout/price";
+@import "./layout/procedures";
+
+
