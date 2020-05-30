@@ -35,11 +35,25 @@ body {
     line-height: 1;
     width: 100%;
 }
-@media only screen and (min-width: 1246px) {
+/* No greater than 900px, no less than 400px */
+@media (max-width:1024px) and (min-width:400px) {
+    .main {
+        width:100%;
+        margin: auto;
+    }
+}
+
+@media (max-width:1264px) and (min-width: 1024px) {
 .main {
-    width: 50%;
+    width: 80%;
     margin: auto;
 }
 }
 
+@media (max-width:2568px) and (min-width: 1264px) {
+    .main {
+        width: 60%;
+        margin: auto;
+    }
+    }
 
